@@ -1,45 +1,80 @@
-\section{Metodología de desarrollo aplicada a la propuesta} \label{metodologia}
+\section{Metodología de desarrollo aplicada al proyecto integrador} \label{metodologia}
 % \section{Metodologías Tradicionales y Metodologías Ágiles}\label{metodologia}
-En el marco de las asignaturas Análisis y Diseño de Sistemas, perteneciente al tercer año de las carreras Analista, Profesorado y 
- Licenciatura en Ciencias de la Computación de la U.N.R.C, se presentan diferentes metodologías para el desarrollo de 
-sistemas informáticos. Algunos de los ciclos de vida del software estudiados son:  el ciclo de vida lineal o secuencial, el método del análisis estructurado de Jourdon\cite{}
-, desarrollo basado en componentes, diseño por contratos\cite{} de Bertrand Meyer, el Proceso Unificado \cite{} y metodologías ágiles.\\ 
- 
-La asignatura Análisis y Diseño de Sistemas cuenta con una planificación de 180 horas. Como se explicó en la sección FUNDAMENTOS, 
-en trabajos ateriores se propuso
-integrar este proyecto a los proyectos de fin de materia de todas las asignaturas de 3er. año. En esta oportunidad, se presenta 
-una modificación a este proyecto-taller meditante la incorporación de un set de herramientas 
-que la industria de desarrollo de software utiliza actualmente. Dichas tecnologías están intimamente ligadas a la aplicación de metodologías ágiles. 
-Es por ello que el cuerpo docente de la asignatura ha seleccionado la metodología ágil SCRUM  CITA  la cual se explica brevemente en el siguiente apartado.
-
-\subsection{Scrum}
-Scrum es una metodología ágil que permite trabajar en ambientes muy cambiantes, permitiendo permanentes replanteamientos. 
-Por otro lado permite reducir el tiempo de producción y de comercialización del producto obtenido, aporta un gran beneficio o 
-valor agregado al cliente, minimiza los riesgos de desperdiciar esfuerzo/tiempo en la construcción de artefactos que no serán usados 
+En el marco de las asignaturas de Ingeniería de Sofware, se presenta una visión general sobre las diferentes metodologías utilizadas en 
+el de desarrollo de 
+software\cite{pressman,jalote}.
+Algunos de los ciclos de vida del software estudiados son:  el lineal o secuencial, el método del Análisis Estructurado de Yourdon\cite{yourdon}, 
+desarrollo basado en componentes, diseño por contratos\cite{meyer} de Bertrand Meyer, entre otros. 
+Particularmente, se pone énfasis en el Proceso Unificado\cite{pu}, como método de desarrollo
+orientado a objetos tradicional  y en Scrum\cite{agile}, como metodología de desarrollo ágil.\\ 
+En este trabajo se presenta una modificación al proyecto de articulación de contenidos mencionado en la sección
+\ref{fundamenta} meditante la 
+incorporación de un 
+conjunto  de herramientas 
+que la industria de desarrollo de software utiliza intensamente en la actualidad. Dichas tecnologías están intimamente ligadas a la 
+aplicación de 
+metodologías ágiles\cite{metagiles}, especialmente con Scrum, metodología seleccionada por el equipo docente para el desarrollo de este 
+proyecto integrador.
+Scrum es una metodología ágil que posibilita trabajar en ambientes muy cambiantes, permitiendo replanteamientos continuos. 
+Por otro lado, reduce el tiempo de producción y de comercialización del producto, aporta un gran beneficio o 
+valor agregado al cliente, minimiza los riesgos de desperdiciar esfuerzo/tiempo en la construcción de artefactos que no serán utilizados 
 o que no son fundamentales para el cliente. Facilita también la comunicación entre todos los integrantes del proyecto. 
-La documentación producida dentro de un proyecto SCRUM es relativa al usuario, dueño, producto y equipo.  Scrum es más bien un marco de 
-trabajo que reposa sobre la premisa de que el equipo de desarrollo conocerá la mejor manera de resolver el problema que se le presenta. 
-La reunión de planificación de cada grupo de requerimientos a producir se describe en términos del resultado deseado, 
+La documentación producida dentro de un proyecto Srum es relativa al usuario, dueño, producto y equipo.  Scrum es un marco de 
+trabajo basado sobre la premisa de que el equipo de desarrollo conocerá la mejor manera de resolver el problema que se le presenta. 
+La reunión de planificación de cada conjunto de requerimientos a producir se describe en términos del resultado deseado, 
 en lugar de un conjunto de criterios de ingreso, definiciones y tareas. 
 Scrum se basa en una auto-organización, con un equipo multifuncional y sin líder (dentro del equipo). 
 El equipo es apoyado por dos individuos quienes ocupan los roles de Scrum Master y  Product Owner. 
 El Scrum Master es una especie de entrenador para el equipo, su función es ayudar a los miembros del mismo a utilizar el marco que ofrece 
-la metodología para conseguir un nivel alto de productividad. Mientras que el Product Owner representa los negocios, clientes o 
-usuarios. Éste guía al equipo hacia la construcción del producto adecuado.
+la metodología para conseguir un alto nivel de productividad. Mientras que el Product Owner representa los negocios, clientes o 
+usuarios. Éste, guía al equipo hacia la construcción del producto esperado.
  Los proyectos Scrum avanzan en orden a la definición de los sprints, que son las iteraciones que poseen una duración de entre dos y cuatro semanas. 
-En el inicio de cada sprint, los miembros del equipo se comprometen a producir un cierto número de características que enumeran en 
-el artefacto conocido como el Product Backlog del proyecto.  Al final de cada sprint, cada funcionalidad (conocida como \emph{historia}) debe estar codificada,
- probada e integrada a una versión demo del sprint anterior. Luego se realiza una revisión, y por último se demuestra la nueva funcionalidad
- frente al Product Owner y las otras partes interesadas que proporcionen información requerida para el siguiente sprint. 
+En el inicio de cada sprint, los miembros del equipo se comprometen a producir un cierto número de características que se enumeran en 
+el artefacto conocido como Product Backlog del proyecto.  Al final de cada sprint, cada funcionalidad (conocida como user story) debe estar 
+codificada,
+ probada e integrada a una versión demo del sprint anterior. Luego se realiza una revisión, y por último se presenta la nueva funcionalidad
+ frente al Product Owner y las otras partes interesadas que proporcionarán información requerida para el siguiente sprint. 
 Las iteraciones han de continuar hasta obtener el producto deseado.
-Como se puede observar de lo expuesto, SCRUM establece una forma de trabajo en donde todo el equipo se auto-regula y en donde no hay de antemano
-una documentación establecida a priori. Cada equipo utilizará los elementos que le sean necesarios  para poder llevar adelante el grupo de \emph{historias}
-con el cual se ha comprometido. Algunos podrán utilizar diagramas UML\cite{} otros utilizarán diagramas de flujos de datos, etc.
+Como se puede observar de lo expuesto, Scrum establece una forma de trabajo en donde todo el equipo se auto-regula y en donde no hay 
+una documentación establecida a priori. Cada equipo utilizará los elementos que le sean necesarios para poder llevar adelante el conjunto de 
+user stories
+con el cual se ha comprometido. Algunos equipos podrán utilizar diagramas UML\cite{uml}, otros utilizarán diagramas de flujos de datos, etc.
 En la figura \ref{figu1} se esquematiza todo el proceso.
-% \includegraphics[width=0.7 \textwidth]{f2}
-% \begin{figure}
-%   \centering
-%     \includegraphics[width=0.5 \textwidth]{f2}
-%   \caption{Proceso Scrum}
-%   \label{figu1}
-% \end{figure}
+\section{Descripción de la propuesta} \label{propuesta}
+
+La propuesta presentada en este trabajo consiste 
+en el desarrollo de un proyecto integrador donde, además de integrar los contenidos teórico-prácticos 
+estudiados en las asignaturas de Ingeniería de Sofware, se incorpore un conjunto de tecnologías y herramientas utilizadas en la industria del 
+desarrollo de software actual,
+permitiendo
+establecer un vínculo estrecho entre el futuro egresado y las empresas de desarrollo de software. \\
+\subsection{Objetivos}
+A continuación se enumeran los objetivos de esta propuesta:
+ \begin{itemize}
+ \item Integrar en un  proyecto de desarrollo de software los contenidos trabajados en tercer año, fundamentalmente, aquellos
+ pertenecientes a las asignaturas de Ingeniería de Sofware. 
+ \item Aplicar una metodología de desarrollo ágil como Scrum. Aprovechando de esta manera los beneficios que conlleva la misma y a sabiendas de que 
+ es una de la más utilizadas por las empresas de desarrolo de software.
+ \item Simular un ambiente de trabajo con características similares a las de un ambiente de trabajo real. Para ello se establecen objetivos grupales 
+ y es el mismo grupo quien se auto-gestiona. Si bien los objetivos son grupales, en el marco del proyecto integrador, 
+ se realiza un seguimiento y valoración particular de cada uno de los 
+ estudiantes, su integración con el resto, su compromiso, su forma de trabajo, etc.
+ \item Desarrollar en los estudiantes habilidades para adoptar y obtener beneficios  de un conjunto de herramientas utilizadas en la industria del software. 
+ El objetivo no es sólo que aprendan a usar una herramienta, 
+%  \newpage
+ sino que sean capaces de seleccionar las herramientas adecuadas en futuros proyectos.
+ 
+ 
+ \subsection{Organización y planificación}
+El poyecto integrador es planificado para ejecutarse durante el primer cuatrimestre del año. Cabe señalar
+que dentro del equipo docente de la asignatura, se ha seleccionado a un docente  con dedicación part-time para la coordinación general 
+del poyecto integrador. La selección de este docente fue motivada por la vinculación que  el mismo posee con la industria de desarrollo de software. 
+Este docente es fundador de una empresa de desarrollo de software local y está habituado a formar parte de equipos de trabajo
+con desarrolladores a nivel internacional en proyectos bajo la modalidad outsorcing y freelance. 
+Uno de los objetivos del proyecto integrador es la aplicación de una metodología ágil, es por ello que el proyecto está guiado por Srum.
+En cada una de las fases del ciclo de vida, se aplica una herramienta específica. No es objetivo de este 
+proyecto agregar complejidad en demasia  ni sobrecargar tiempos de desarrollo. Sino que se focaliza en que cada 
+grupo de estudiantes pueda completar el trabajo, usando las tecnologías propuestas.  
+ 
+ \end{itemize}
+% 
